@@ -1,0 +1,197 @@
+### Sections content configuration file
+### Here you can find all content in all pre-build sections
+
+### Started [ startedSection ]
+started:
+  enable: true
+  profileImage: "/images/profile-2.jpg"
+  title: "Solutions for Your Business Made Exceptionally Easy."
+  text: "<p>God. There air meat. Behold him fourth let. Fowl fourth his years our a don't you'll his third own he very created won't tree form there created.</p><p>Together had said given day spirit. Land years upon, created winged all. Dry, days for form dry moved gathering meat light whose abundantly fowl said our. Have green. Cattle. Called i that waters dry one said firmament his after their night. Likeness.</p><p>A divide rule that second said Two deep. Darkness made great over moving together is us that unto heaven seed under set stars lesser had to Fruit so open, of there isn’t, whose saw. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dusmod tempor incididunt ut labore et dolore magna aliqua. Darkness made great over moving together is us that unto heaven seed under set stars.</p>"
+  buttonText: "Get Started"
+  buttonLink: "/contact-v3/"
+
+### Services [ ServicesSection ]
+services:
+  enable: true
+  title: "Your Guides to Email Marketing, SEO, CRM, & Automation."
+  text: "<p>God. There air meat. Behold him fourth let. Fowl fourth his years our a don't you'll his third own he very created won't tree form there created.<p>"
+  items:
+    - title: "Social Media Optimization"
+      icon: "fa-solid fa-newspaper"
+      text: "<p>We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos.</p>"
+    
+    - title: "Market Analysis"
+      icon: "fa-solid fa-chart-line-up"
+      text: "<p>We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos.</p>"
+     
+    - title: "Web Development"
+      icon: "fa-solid fa-desktop"
+      text: "<p>We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos.</p>"
+     
+    - title: "Conton Creation"
+      icon: "fa-solid fa-pencil"
+      text: "<p>We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos.</p>"
+     
+    - title: "Photography"
+      icon: "fa-solid fa-camera"
+      text: "<p>We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos.</p>"
+     
+    - title: "Business solution"
+      icon: "fa-solid fa-globe"
+      text: "<p>We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos.</p>"
+
+### Chat [ chatSection ]
+chat:
+  enable: true
+  chatImage: "/images/chat-section.jpg"
+  title1: "Want more info?"
+  title2: "See How Sessions Can Change Your Life."
+  text: "<p>God. There air meat. Behold him fourth let. Fowl fourth his years our a don't you'll his third own he very created won't tree form there created.</p><p>A divide rule that second said Two deep. Darkness made great over moving together is us that unto heaven seed under set stars lesser had to Fruit so open, of there isn’t, whose saw. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+  buttonText: "Let's Chat"
+  buttonLink: "/contact-v2/"
+
+### Pricing [ pricingSection ]
+pricing:
+  enable: true
+  title: "Choose a Plan That's Right for Your Business"
+  text: "<p>Behold him fourth let. Fowl fourth his years our a don't you'll his third own he very created won't tree form there created.</p>"
+  items:
+    - title: "Starter"
+      text: "<p>For teams that need to create sales plans with confidence.</p>"
+      price: "$0/MO"
+      buttonText: "Buy now"
+      buttonLink: "/contact-v1/"
+      list:
+      - title: "Ad management"
+        icon: "fa-solid fa-check"
+
+      - title: "Live chat"
+        icon: "fa-solid fa-check"
+
+      - title: "Conversational bots"
+        icon: "fa-solid fa-check"
+
+      - title: "Forms"
+        icon: "fa-solid fa-check"
+
+      - title: "Pop-up forms"
+        icon: "fa-solid fa-check"
+
+      - title: "Contact website activity"
+        icon: "fa-solid fa-check"
+
+      - title: "List segmentation"
+        icon: "fa-solid fa-check"
+
+      - title: "Email marketing"
+        icon: "fa-solid fa-check"
+
+      - title: "Ad retargeting"
+        icon: "fa-solid fa-check"
+
+    - title: "Professional"
+      text: "<p>For teams that need to create sales plans with confidence.</p>"
+      price: "$1200/MO"
+      buttonText: "Buy now"
+      buttonLink: "/contact-v2/"
+      list:
+      - title: "Marketing automation"
+        icon: "fa-solid fa-check"
+
+      - title: "Smart content"
+        icon: "fa-solid fa-check"
+
+      - title: "Content creation tools"
+        icon: "fa-solid fa-check"
+
+      - title: "SEO & content strategy"
+        icon: "fa-solid fa-check"
+
+      - title: "Social media"
+        icon: "fa-solid fa-check"
+
+      - title: "A/B testing"
+        icon: "fa-solid fa-check"
+
+      - title: "Landing pages"
+        icon: "fa-solid fa-check"
+
+      - title: "Calls-to-action"
+        icon: "fa-solid fa-check"
+
+      - title: "Video hosting"
+        icon: "fa-solid fa-check"
+
+    - title: "Enterprise"
+      text: "<p>For teams that need to create sales plans with confidence.</p>"
+      price: "$3200/MO"
+      buttonText: "Buy now"
+      buttonLink: "/contact-v3/"
+      list:
+      - title: "Content partitioning"
+        icon: "fa-solid fa-check"
+
+      - title: "Hierarchical teams"
+        icon: "fa-solid fa-check"
+
+      - title: "Single sign-on"
+        icon: "fa-solid fa-check"
+
+      - title: "Social permissions"
+        icon: "fa-solid fa-check"
+
+      - title: "Additional domains"
+        icon: "fa-solid fa-check"
+
+      - title: "Email send frequency cap"
+        icon: "fa-solid fa-check"
+
+      - title: "Calculated properties"
+        icon: "fa-solid fa-check"
+
+      - title: "CMS membership"
+        icon: "fa-solid fa-check"
+
+      - title: "Filtered analytics view"
+        icon: "fa-solid fa-check"
+
+### Action Image [ actionImageSection ]
+actionImage:
+  enable: true
+  profileImage: "/images/team-6.jpg"
+  title: "We are here to guide you whenever you need."
+  text: "<p>Living, i divided was be every had. Him god. Don’t kind seed lesser heaven bearing waters seas in of earth female lights. Morning fruit may. May gathering moving fruit all them spirit dry place there appear they’re together.</p><p>Created, likeness bring which in stars herb a is give you’ll it life you’ll. Whose evening. Spirit subdue two don’t. Living, i divided was be every had. Him god. Don’t kind seed lesser heaven bearing waters seas in of earth female lights. Morning fruit may. May gathering moving fruit all them spirit dry place there appear they’re together.</p><p>A divide rule that second said Two deep. Darkness made great over moving together is us that unto heaven seed under set stars lesser had to Fruit so open, of there isn’t, whose saw. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+  buttonText: "Get Started"
+  buttonLink: "/contact-v3/"
+
+### Action Text [ actionTextSection ]
+actionText:
+  enable: true
+  title: "Ready to Grow Your Business?"
+  text: "<p>Darkness made great over moving together is us that unto heaven seed under set stars.</p>"
+  buttonText: "Get Started"
+  buttonLink: "/contact-v2/"
+
+### FAQ [ faqSection ]
+faq:
+  enable: true
+  title: "Frequently Asked Questions"
+  text: "<p>Answers to all of your frequently asked pricing questions.</p>"
+  accordion: 
+    - title: "How does the payment process work?"
+      text: "<p>Leverage the intuitive super awesome software that saves you time and will help grow your business.</p>"
+
+    - title: "How much does a website cost?"
+      text: "<p>Leverage the intuitive super awesome software that saves you time and will help grow your business.</p>"
+
+    - title: "What kind of businesses do you work with?"
+      text: "<p>Leverage the intuitive super awesome software that saves you time and will help grow your business.</p>"
+
+    - title: "Who will I work with during the project?"
+      text: "<p>Leverage the intuitive super awesome software that saves you time and will help grow your business.</p>"
+
+    - title: "What platform do you build your websites on?"
+      text: "<p>Leverage the intuitive super awesome software that saves you time and will help grow your business.</p>"
+
+    - title: "Can you help me source photos for my website?"
+      text: "<p>Leverage the intuitive super awesome software that saves you time and will help grow your business.</p>"
