@@ -11,7 +11,7 @@ DefaultContentLanguage = "en"
 [languages]
   [languages.en]
     languageName = 'English'
-    title = "Demo en"
+    title = "Mini en"
     weight = 1
       [languages.en.pagination]
         disableAliases = true
@@ -20,7 +20,7 @@ DefaultContentLanguage = "en"
 
   [languages.es]
     languageName = 'Spanish'
-    title = "Demo es"
+    title = "Mini es"
     weight = 2
       [languages.es.pagination]
         disableAliases = true
