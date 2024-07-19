@@ -7,7 +7,7 @@ resourceDir = "resources"
 paginate = 2
 summaryLength = 50
 
-DefaultContentLanguage = "en" # Site language. Available translations in the theme's `/i18n` directory.
+DefaultContentLanguage = "en"
 [languages]
   [languages.en]
     languageName = 'English'
