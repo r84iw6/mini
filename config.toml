@@ -1,0 +1,215 @@
+# General Settings
+title = "Archie Theme"
+baseURL = "" #YOUR SITE URL
+languageCode = "en"
+theme = "Archie"
+resourceDir = "resources"
+paginate = 2
+summaryLength = 50
+
+DefaultContentLanguage = "en" # Site language. Available translations in the theme's `/i18n` directory.
+[languages]
+  [languages.en]
+    languageName = 'English'
+    title = "Demo en"
+    weight = 1
+      [languages.en.pagination]
+        disableAliases = true
+        pagerSize = 6
+        path = 'page'
+
+  [languages.es]
+    languageName = 'Spanish'
+    title = "Demo es"
+    weight = 2
+      [languages.es.pagination]
+        disableAliases = true
+        pagerSize = 5
+        path = 'pageez'
+
+# Menu Settings
+[menu]
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = ""
+  weight = 1
+  [[menu.main]]
+    identifier = "parallax-home"
+    parent = "home"
+    name = "Parallax"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "text-home"
+    parent = "home"
+    name = "Text"
+    url = "/text-home/"
+    weight = 2
+  [[menu.main]]
+    identifier = "slider-home"
+    parent = "home"
+    name = "Slider"
+    url = "/slider-home/"
+    weight = 3
+  [[menu.main]]
+    identifier = "slider-home-v2"
+    parent = "home"
+    name = "Slider v2"
+    url = "/slider-home-v2/"
+    weight = 4
+[[menu.main]]
+  identifier = "pages"
+  name = "Pages"
+  url = ""
+  weight = 2
+  [[menu.main]]
+    identifier = "about-me"
+    parent = "pages"
+    name = "About me"
+    url = "/about-me/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about-me-v2"
+    parent = "pages"
+    name = "About me v2"
+    url = "/about-me-v2/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about-us"
+    parent = "pages"
+    name = "About us"
+    url = "/about-us/"
+    weight = 3
+  [[menu.main]]
+    identifier = "about-us-v2"
+    parent = "pages"
+    name = "About us v2"
+    url = "/about-us-v2/"
+    weight = 4
+  [[menu.main]]
+    identifier = "landing-page"
+    parent = "pages"
+    name = "Landing Page"
+    url = "/landing-page/"
+    weight = 5
+  [[menu.main]]
+    identifier = "services"
+    parent = "pages"
+    name = "Services"
+    url = "/services/"
+    weight = 6
+  [[menu.main]]
+    identifier = "pricing"
+    parent = "pages"
+    name = "Pricing"
+    url = "/pricing/"
+    weight = 7
+  [[menu.main]]
+    identifier = "faq"
+    parent = "pages"
+    name = "FAQ"
+    url = "/faq/"
+    weight = 8
+[[menu.main]]
+  identifier = "portfolio"
+  name = "Portfolio"
+  url = ""
+  weight = 3
+  [[menu.main]]
+    identifier = "portfolio-classic"
+    parent = "portfolio"
+    name = "Classic"
+    url = "/portfolio-classic/"
+    weight = 1
+  [[menu.main]]
+    identifier = "portfolio-minimal"
+    parent = "portfolio"
+    name = "Minimal"
+    url = "/portfolio-minimal/"
+    weight = 2
+  [[menu.main]]
+    identifier = "portfolio-alternative"
+    parent = "portfolio"
+    name = "Alternative"
+    url = "/portfolio-alternative/"
+    weight = 3
+  [[menu.main]]
+    identifier = "portfolio-creative"
+    parent = "portfolio"
+    name = "Creative"
+    url = "/portfolio-creative/"
+    weight = 4
+  [[menu.main]]
+    identifier = "portfolio-full-width"
+    parent = "portfolio"
+    name = "Full width"
+    url = "/portfolio-full-width/"
+    weight = 5
+  [[menu.main]]
+    identifier = "portfolio-single"
+    parent = "portfolio"
+    name = "Project Single"
+    url = ""
+    weight = 6
+    [[menu.main]]
+    identifier = "single-v1"
+    parent = "portfolio-single"
+    name = "Single v1"
+    url = "/portfolio/dream/"
+    weight = 1
+    [[menu.main]]
+    identifier = "single-v2"
+    parent = "portfolio-single"
+    name = "Single v2"
+    url = "/portfolio/book/"
+    weight = 2
+    [[menu.main]]
+    identifier = "single-v3"
+    parent = "portfolio-single"
+    name = "Single v3"
+    url = "/portfolio/photo/"
+    weight = 3
+    [[menu.main]]
+    identifier = "single-v4"
+    parent = "portfolio-single"
+    name = "Single v4"
+    url = "/portfolio/hand/"
+    weight = 4
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog/"
+  weight = 4
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = ""
+  weight = 5
+    [[menu.main]]
+    identifier = "contact-v1"
+    parent = "contact"
+    name = "Contact v1"
+    url = "/contact-v1/"
+    weight = 1
+    [[menu.main]]
+    identifier = "contact-v2"
+    parent = "contact"
+    name = "Contact v2"
+    url = "/contact-v2/"
+    weight = 2
+    [[menu.main]]
+    identifier = "contact-v3"
+    parent = "contact"
+    name = "Contact v3"
+    url = "/contact-v3/"
+    weight = 3
+
+# Sitemap Settings
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
